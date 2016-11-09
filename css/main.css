@@ -632,6 +632,18 @@ tbody.collapse.in {
   margin-bottom: 25px; }
   .section > .widget {
     margin: 0; }
+  .section.row > .widget {
+    margin-bottom: 25px;
+    float: left;
+    width: 100%;
+    padding: 0 15px; }
+    @media (max-width: 992px) {
+      .section.row > .widget {
+        width: 50%; } }
+    @media (max-width: 767px) {
+      .section.row > .widget {
+        float: none;
+        width: 100%; } }
   @media (max-width: 992px) {
     .widget:nth-of-type(odd) {
       clear: left; } }
