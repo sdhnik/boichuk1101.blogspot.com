@@ -693,24 +693,24 @@ tbody.collapse.in {
       .widget-list-item a:hover, .widget-list-item a:focus {
         color: #a89570; }
 
-.statistic {
+.Stats {
   border: 1px solid #ddd;
   border-radius: 20px;
   padding: 20px 0;
   text-align: center; }
-  .statistic-title, .statistic-data {
+  .Stats-title, .Stats-data {
     display: inline-block;
     vertical-align: top;
     text-align: left; }
-  .statistic-title {
+  .Stats-title {
     width: 90px;
     margin-right: -4px;
     font-size: 0.875rem;
     line-height: 110%;
     color: #999; }
-    .statistic-title span {
+    .Stats-title span {
       display: block; }
-  .statistic-data {
+  .Stats-data {
     width: 150px;
     font-size: 2.6875rem;
     font-weight: bold;
