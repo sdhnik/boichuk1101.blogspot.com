@@ -696,7 +696,7 @@ tbody.collapse.in {
 .Stats {
   border: 1px solid #ddd;
   border-radius: 20px;
-  padding: 20px 0;
+  padding: 20px 0 !important;
   text-align: center; }
   .Stats-title, .Stats-data {
     display: inline-block;
