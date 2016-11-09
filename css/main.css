@@ -278,7 +278,9 @@ tbody.collapse.in {
       border-radius: 20px;
       box-shadow: 0 10px 21px rgba(0, 0, 0, 0.3);
       margin: 15px 0 0;
-      width: 100%; } }
+      width: 100%; }
+      .header__nav__menu__items .widget {
+        margin: 0; } }
   .header__nav__menu__items__ul {
     list-style: none;
     padding: 10px;
@@ -315,7 +317,9 @@ tbody.collapse.in {
   padding: 12vh 0 40px;
   text-align: center; }
   .header__site__title {
-    font-size: 3.125rem; }
+    font-size: 3.125rem;
+    font-weight: normal;
+    margin: 0; }
     @media (max-width: 767px) {
       .header__site__title {
         font-size: 1.875rem; } }
