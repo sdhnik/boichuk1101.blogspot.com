@@ -441,8 +441,9 @@ tbody.collapse.in {
       padding: 20px 5px; } }
   .blog__content__post__title {
     font-size: 1.625rem;
+    font-weight: normal;
     color: #333;
-    margin-bottom: 15px; }
+    margin: 0 0 15px; }
     .blog__content__post__title a {
       color: #333;
       text-decoration: none;
