@@ -466,7 +466,8 @@ tbody.collapse.in {
   .blog__content__post__text {
     color: #333;
     font-family: 'Roboto', Helvetica, Arial, sans-serif !important;
-    font-size: 1rem !important; }
+    font-size: 1rem !important;
+    word-wrap: break-word; }
     .blog__content__post__text img {
       width: 100%;
       height: auto;
@@ -486,7 +487,8 @@ tbody.collapse.in {
     color: #333;
     margin: 0 0 15px; }
   .blog__content__page__text {
-    color: #333; }
+    color: #333;
+    word-wrap: break-word; }
     .blog__content__page__text h2 {
       font-size: 1.25rem;
       font-weight: normal;
