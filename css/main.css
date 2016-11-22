@@ -431,7 +431,8 @@ tbody.collapse.in {
     text-transform: uppercase;
     color: #666;
     text-decoration: none;
-    transition: color .3s ease; }
+    transition: color .3s ease;
+    word-wrap: normal; }
     .blog__nav__menu a:hover, .blog__nav__menu a:focus {
       color: #a89570; }
   .blog__nav__menu li.active a {
