@@ -432,7 +432,8 @@ tbody.collapse.in {
     color: #666;
     text-decoration: none;
     transition: color .3s ease;
-    word-wrap: normal; }
+    word-wrap: normal;
+    word-break: normal; }
     .blog__nav__menu a:hover, .blog__nav__menu a:focus {
       color: #a89570; }
   .blog__nav__menu li.active a {
