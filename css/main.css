@@ -631,11 +631,11 @@ tbody.collapse.in {
     border-top: 1px solid #ddd; }
   .page__link p {
     margin: 0; }
-    .page__link p a {
+    .page__link a {
       color: #666;
       text-decoration: none;
       transition: color .3s ease; }
-      .page__link p a:hover, .page__link p a:focus {
+      .page__link a:hover, .page__link a:focus {
         color: #a89570; }
     .page__link p + p {
       margin-top: 5px;
