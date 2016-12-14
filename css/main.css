@@ -601,13 +601,19 @@ tbody.collapse.in {
   margin: 30px 0;
   padding-left: 80px; }
 
-.page__link {
+.page__list ul {
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+.page__list li {
   position: relative;
   padding-top: 15px;
   font-size: 0.875rem;
   color: #999;}
 
-  .page__link:before {
+  .page__list li:before {
     content: '';
     width: 60px;
     height: 60px;
@@ -621,25 +627,28 @@ tbody.collapse.in {
     color: #fff;
     line-height: 60px;
     text-align: center; }
-  .page__link__doc:before {
+  .page__list li:before {
     content: ''; }
-  .page__link__book:before {
-    content: ''; }
-  .page__link__e-book:before {
-    content: ''; }
-  .page__link__media:before {
+  .page__list li:after {
+    content: 'Документ';
+    display: block;
+  }
+  .page__list li[data-title]:before {
     content: ''; }
-  .page__link + .page__link {
+  .page__list li[data-title]:after {
+    content: attr('data-title');
+  }
+  .page__link + .page__link, li + li {
     margin-top: 15px;
     border-top: 1px solid #ddd; }
-  .page__link p {margin:0;}
-  .page__link a {
+  .page__link p, li > p {margin:0;}
+  .page__link a, li > a {
     margin-bottom: 5px;
     font-size: 1rem;
     color: #666;
     text-decoration: none;
     transition: color .3s ease; }
-    .page__link a:hover, .page__link a:focus {
+    .page__link a:hover, .page__link a:focus, li > a:hover, li > a:focus {
       color: #a89570; }
 
 
