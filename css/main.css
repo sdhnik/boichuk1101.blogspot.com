@@ -636,19 +636,19 @@ tbody.collapse.in {
   .page__list li[data-title]:before {
     content: ''; }
   .page__list li[data-title]:after {
-    content: attr('data-title');
+    content: attr(data-title);
   }
-  .page__link + .page__link, li + li {
+  .page__link + .page__link, .page__list li + li {
     margin-top: 15px;
     border-top: 1px solid #ddd; }
-  .page__link p, li > p {margin:0;}
-  .page__link a, li > a {
+  .page__link p, .page__list li > p {margin:0;}
+  .page__link a, .page__list li > a {
     margin-bottom: 5px;
     font-size: 1rem;
     color: #666;
     text-decoration: none;
     transition: color .3s ease; }
-    .page__link a:hover, .page__link a:focus, li > a:hover, li > a:focus {
+    .page__link a:hover, .page__link a:focus, .page__list li > a:hover, .page__list li > a:focus {
       color: #a89570; }
 
 
