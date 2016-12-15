@@ -47,13 +47,13 @@ $(function(){
 			$(this).addClass('list').wrap('<div id="list-'+index+'"></div>').find('a').addClass('name');
 			count++;
 		});
-		for (var i = 0; i < count+1; i++) {
+		for (var i = 0; i < count; i++) {
 			eval("var list" + i + "= new List('list-"+i+"', options);");
 		}
 		$('input.search').val('');
 		$('input.search').keyup(function(){
 			var click = $(this).val();
-			for (var i = 0; i < count+1; i++) {
+			for (var i = 0; i < count; i++) {
 				eval("list" + i + ".search(click);");
 			}
 		});
