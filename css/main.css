@@ -577,7 +577,8 @@ tbody.collapse.in {
     border-radius: 18px;
     text-align: center;
     display: inline-block;
-    color: #666; }
+    color: #666;
+    margin-right: 5px; }
   .blog-pager .displaypageNum, .blog-pager .firstpage {
     display: inline-block;
     vertical-align: top;
