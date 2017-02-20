@@ -565,8 +565,10 @@ tbody.collapse.in {
           background-color: transparent;
           border-color: #bbb; }
 
-.blog-pager {
-  margin: 30px 0; }
+.blog-pager#blog-pager {
+  margin: 30px 0;
+  text-align: left; }
+
   .blog-pager .pagecurrent {
     height: 36px;
     width: 36px;
@@ -576,10 +578,10 @@ tbody.collapse.in {
     text-align: center;
     display: inline-block;
     color: #666; }
-  .blog-pager .displaypageNum {
+  .blog-pager .displaypageNum, .blog-pager .firstpage {
     display: inline-block;
     vertical-align: top; }
-    .blog-pager .displaypageNum a {
+    .blog-pager .displaypageNum a, .blog-pager .firstpage a {
       min-width: 36px;
       padding: 0 13px;
       line-height: 36px;
@@ -590,7 +592,7 @@ tbody.collapse.in {
       display: inline-block;
       color: #666;
       transition: all .3s ease; }
-      .blog-pager .displaypageNum a:hover, .blog-pager .displaypageNum a:focus {
+      .blog-pager .displaypageNum a:hover, .blog-pager .displaypageNum a:focus, .blog-pager .firstpage a:hover, .blog-pager .firstpage a:focus {
         border-color: #a89570;
         text-decoration: none; }
   .blog-pager .showpageOf, .blog-pager .lastpage {
@@ -647,11 +649,23 @@ tbody.collapse.in {
         color: #a89570; }
   .page__list__search {
     margin-bottom: 15px;
-    margin-left: -80px; }
+    margin-left: -80px;
+    position: relative; }
+    .page__list__search:before {
+      content: '';
+      font-family: FontAwesome;
+      font-size: 1.25rem;
+      color: #aaa;
+      height: 24px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 15px;
+      margin: auto; }
     .page__list__search__input {
       border: 1px solid #aaa;
       color: #666;
-      padding: 10px 15px;
+      padding: 10px 15px 10px 45px;
       width: 100%; }
       .page__list__search__input::-webkit-input-placeholder {
         font-style: italic; }
