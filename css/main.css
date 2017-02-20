@@ -566,7 +566,7 @@ tbody.collapse.in {
           border-color: #bbb; }
 
 .blog-pager#blog-pager {
-  margin: 30px 0;
+  margin: 15px 0;
   text-align: left; }
 
   .blog-pager .pagecurrent {
@@ -580,7 +580,8 @@ tbody.collapse.in {
     color: #666; }
   .blog-pager .displaypageNum, .blog-pager .firstpage {
     display: inline-block;
-    vertical-align: top; }
+    vertical-align: top;
+    margin-right: 5px; }
     .blog-pager .displaypageNum a, .blog-pager .firstpage a {
       min-width: 36px;
       padding: 0 13px;
