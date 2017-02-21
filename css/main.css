@@ -636,6 +636,28 @@ tbody.collapse.in {
       content: ''; }
     .page__list li[data-title]:after {
       content: attr(data-title); }
+
+    .page__list li[data-class='ebook'] {
+      margin-left: -80px;
+    }
+    .page__list li[data-class='ebook']:before, .page__list li[data-class='ebook']:after {
+      display: none;
+    }
+    .page__list li[data-class='ebook'] > a {
+      float: left;
+      display: block;
+      max-width: 280px;
+      margin: 0 15px 0 0;
+    }
+    .page__list li[data-class='ebook'] > a img {
+      width: 100%;
+      height: auto;
+    }
+    .page__list li[data-class='ebook'] .ebook-content {
+      overflow: hidden;
+    }
+
+
     .page__list li + li {
       margin-top: 15px;
       border-top: 1px solid #ddd; }
