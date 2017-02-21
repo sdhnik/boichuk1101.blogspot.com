@@ -651,6 +651,12 @@ tbody.collapse.in {
       max-width: 280px;
       margin: 0 30px 0 0;
     }
+    @media(max-width: 600px) {
+      .page__list li[data-class='ebook'] > a {
+        float: none;
+        margin: 0 auto 15px;
+      }
+    }
     .page__list li[data-class='ebook'] > a img {
       width: 100%;
       height: auto;
