@@ -496,6 +496,12 @@ tbody.collapse.in {
       font-weight: normal;
       color: #a89570;
       margin: 40px 0 30px; }
+    .blog__content__page__text a {
+      color: #666;
+      text-decoration: none;
+      transition: color .3s ease; }
+      .blog__content__page__text a:hover, .blog__content__page__text a:focus {
+        color: #a89570; }
   .blog__content__page .photo__static img {
     height: auto;
     width: 260px;
