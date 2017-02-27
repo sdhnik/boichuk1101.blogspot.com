@@ -820,6 +820,7 @@ tbody.collapse.in {
   padding-top: 30px;
   height: 0;
   overflow: hidden;
+  border-radius: 20px;
 }
 
 .YOUTUBE-container iframe,
