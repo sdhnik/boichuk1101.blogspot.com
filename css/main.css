@@ -552,8 +552,8 @@ tbody.collapse.in {
       .blog__content__page .photo__slider .bx-wrapper .bx-controls-direction a.bx-next:before {
         content: ''; }
     .blog__content__page .photo__slider .bx-wrapper .bx-pager {
-      line-height: 1;
-      bottom: -40px; }
+      line-height: 130%;
+      bottom: -60px; }
       .blog__content__page .photo__slider .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item {
         vertical-align: middle; }
       .blog__content__page .photo__slider .bx-wrapper .bx-pager.bx-default-pager a {
